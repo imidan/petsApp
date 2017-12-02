@@ -57,7 +57,7 @@ var initPageOnLoad = function(){
             $("#petMainImg").attr("src",pets[i].petImgBig);
             $("#petMainName").html(pets[i].petName);
             $("#petMainDesc").html(pets[i].petDescription);
-            if ($("#petMainDesc").text().length > 1860){
+            if ($("#petMainDesc").text().length > 1880){
                 $(".read-more-container").removeClass("hide");
             }
             continue;

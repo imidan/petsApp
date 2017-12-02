@@ -27,7 +27,11 @@ img {
   min-height: 380px;
   margin-right:  12px;
   padding: 10px;
-  background-color:rgba(192,192,192,0.3);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(grey), to(white));
+  background: -moz-linear-gradient(top, white, grey);
+  background: -webkit-linear-gradient(top, white, grey);
+  background: -o-linear-gradient(top, white, grey);
+  background: -ms-linear-gradient(top, white, grey);
 }
 
 .pets-list-container {

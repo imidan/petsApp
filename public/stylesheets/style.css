@@ -1,0 +1,110 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.big-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.preview-container {
+  width: 80%;
+  min-width: 300px;
+  min-height: 380px;
+  margin-right:  12px;
+  padding: 10px;
+  background-color:rgba(192,192,192,0.3);
+}
+
+.pets-list-container {
+  width:300px;
+  min-width: 20%;
+  padding: 10px;
+  text-align: center;
+  overflow-y: scroll;
+  height: 380px;
+}
+.pets-list-div{
+  width: 100%;
+}
+
+.img-container {
+  height: 378px;
+  width: 30%;
+}
+
+.details-container{
+  margin: 0 0 0 10px;
+}
+
+.text-container{
+  overflow: hidden;
+  max-height: 358px;
+  height: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.read-more-container{
+  height:20px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+}
+
+.pet-list-container {
+  margin: 5px 0;
+  height: 92px;
+  cursor: pointer;
+}
+
+.pet-list-img {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+}
+.border-radius{
+  border-radius: 4px;
+}
+.bold{
+  font-weight: bold
+}
+.pet-list-name{
+  margin: 5px;
+  text-align: left;
+}
+.hide{
+  display:none;
+}
+@media (max-width:799px){
+  .big-container {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .pets-list-container{
+    margin-top:10px;
+  }
+  .preview-container {
+    margin: 0 !important;
+  }
+}
+

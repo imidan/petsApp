@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div.big-container.flex-row
+    div.preview-container.border
+      div.img-container.border
+        img#petMainImg(src="", alt="")
+      div.details-container.flex-1
+        div.text-container.flex-1
+          span#petMainName.title
+          p#petMainDesc 
+        div.hide.read-more-container.flex-row.flex-content-center.flex-align-center.border.border-radius(onclick='toggleDiv()')
+          span Read more...
+    div.pets-list-container.border
+      div.pets-list-div
+        div
+          span.title More stuff
